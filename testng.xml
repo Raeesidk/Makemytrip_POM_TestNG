@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FlightBookingSuite">
+    <test name="FlightBookingTest">
+        <parameter name="browserName" value="edge"/> <!-- Default browser -->
+        <classes>
+            <class name="TestCase1.Makemytrip_FlightBooking"/>
+            <!-- Add other test classes if needed -->
+        </classes>
+    </test>
+    <!-- You can add more tests or suites if necessary -->
+</suite>
